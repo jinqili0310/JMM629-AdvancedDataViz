@@ -227,6 +227,8 @@ h5.second-line a {
 }
 
 span.title-underline {
+  font-size: 1.5rem;
+  font-weight: 400;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-color: #e1ccec;
@@ -235,6 +237,7 @@ span.title-underline {
 
 span.highlight {
   text-weight: 300;
+  font-size: 1.3rem;
   display: inline-block;
   width: auto;
   border: 2px solid #c9b6e4;
