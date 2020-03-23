@@ -54,6 +54,18 @@ d3.csv("data.csv", rowConverter)
             var xAxisText = xAxis.selectAll("text")
                 .attr("class", "axis_text");
 
+            var sticks = svg.selectAll("myline")
+                .data(data)
+                .enter()
+                .append("line")
+                .attr("x1", xScale(0))
+                .attr("x2", d => xScale(d.votes))
+                .attr("y1", d => yScale(d.genre) + 11)
+                .attr("y2", d => yScale(d.genre) + 11)
+                .attr("stroke", "#bada55")
+                .attr("stroke-width", "2");
+            console.log(sticks);
+
             var candy = svg.selectAll("circle")
                 .data(data)
                 .enter()
@@ -63,16 +75,16 @@ d3.csv("data.csv", rowConverter)
                 .attr("r", "10")
                 .attr("fill", "#bada55");
 
-            var sticks = svg.selectAll("rect")
-                .data(data)
-                .enter()
-                .append("rect")
-                .attr("x", "0")
-                .attr("y", d => yScale(d.genre) + 11)
-                .attr("width", d => xScale(d.votes))
-                .attr("height", "2")
-                .attr("fill", "#bada55");
-
+            // var sticks0 = svg.selectAll("rect")
+            //     .data(data)
+            //     .enter()
+            //     .append("rect")
+            //     .attr("x", "0")
+            //     .attr("y", d => yScale(d.genre) + 11)
+            //     .attr("width", d => xScale(d.votes))
+            //     .attr("height", "2")
+            //     .attr("fill", "#bada55");
+            // console.log(sticks0);
 
             var yAxis = svg.append("g")
                 .attr("class", "y axis")
