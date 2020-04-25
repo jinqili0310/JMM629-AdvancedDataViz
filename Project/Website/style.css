@@ -7,7 +7,7 @@ body {
 }
 
 div#intro {
-    margin: 6% 16% 0 16%;
+    margin: 6% 18% 0 18%;
     color: #343434;
     font-family: 'Inconsolata', monospace;
 }
@@ -15,16 +15,18 @@ div#intro {
 h1.title-large {
     text-align: center;
     font-size: 50px;
+    color: #343434;
 }
 
 p.text-detail {
     padding-top: 24px;
     font-size: 24px;
     line-height: 2;
+    color: #343434;
 }
 
 div#plot1 {
-    margin: 6%;
+    margin: 5%;
     background-color: #fcfaf1;
 }
 
@@ -32,6 +34,7 @@ h2.title-medium {
     padding: 3%;
     text-align: center;
     font-size: 32px;
+    color: #343434;
 }
 
 div.tooltip {	
