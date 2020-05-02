@@ -13,6 +13,17 @@ d3.csv('Data/category-new.csv', function (data) {
 data.forEach(function(d, i){
     d.count = +d.count;
     d.group = +d.group;
+    if (d.category == "alcohol") {
+        d.category = "alcohol related";
+    } else if (d.category == "crewlabel") {
+        d.category = "crew / label";
+    } else if (d.category == "culture") {
+        d.category = "culture related";
+    } else if (d.category == "imported") {
+        d.category = "imported word";
+    } else {
+        d.category = d.category;
+    }
 });
 
 let svg = d3.select("#plot2")
