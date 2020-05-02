@@ -25,8 +25,8 @@ p.text-detail {
     color: #343434;
 }
 
-div#plot1 {
-    margin: 5%;
+div.plot {
+    margin: 5% 5% 0 5%;
     background-color: #fcfaf1;
 }
 
@@ -40,12 +40,224 @@ h2.title-medium {
 div.tooltip {	
     position: absolute;			
     text-align: center;			
-    width: 100px;					
-    height: 60px;					
-    padding: 2px;				
+    width: auto;
+    max-width: 140px;					
+    height: auto;
+    background-color: #343434;					
+    padding: 2px 6px;				
     font: 16px 'Inconsolata';		
     border: none;
     border-color: #343434;				
     pointer-events: none;
-    color: #343434;		
+    color: #fcfaf1;		
+}
+
+div.ment {
+    margin: 0 5% 5% 5%;
+}
+
+tr{
+    background-color: #e6b31e;
+    color: #fcfaf1;
+
+}
+td{
+    background-color: #cacaca;
+    color: #343434;
+
+}
+table{
+    font-family: 'Inconsolata', monospace;
+    padding: 0 1% 2% 1%;
+}
+
+div.row {
+    padding: 0 0 0 12vw;
+}
+
+div.column {
+    float: left;
+    text-align: center;
+}
+  
+  /* Clear floats after the columns */
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.plot-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.plot3 {
+    float: left;
+    text-align: center;
+    width: 16vw;
+    height: 16vw;
+    padding: 0.9vw;
+}
+
+div#plot30 {
+    background: #fcfaf1 url('./Images/1jessi.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot31 {
+    background: #fcfaf1 url('./Images/2jvckiwai.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot32 {
+    background: #fcfaf1 url('./Images/3loco.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot33 {
+    background: #fcfaf1 url('./Images/4simond.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot34 {
+    background: #fcfaf1 url('./Images/5gray.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot35 {
+    background: #fcfaf1 url('./Images/6punchnello.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot36 {
+    background: #fcfaf1 url('./Images/7woo.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot37 {
+    background: #fcfaf1 url('./Images/8loopy.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot38 {
+    background: #fcfaf1 url('./Images/9mino.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot39 {
+    background: #fcfaf1 url('./Images/10youngb.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot310 {
+    background: #fcfaf1 url('./Images/11ph1.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot311 {
+    background: #fcfaf1 url('./Images/12ashisland.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot312 {
+    background: #fcfaf1 url('./Images/13coogie.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot313 {
+    background: #fcfaf1 url('./Images/14haon.PNG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot314 {
+    background: #fcfaf1 url('./Images/15kidmilli.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot315 {
+    background: #fcfaf1 url('./Images/16giriboy.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot316 {
+    background: #fcfaf1 url('./Images/17swings.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot317 {
+    background: #fcfaf1 url('./Images/18thequiett.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot318 {
+    background: #fcfaf1 url('./Images/19dprlive.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot319 {
+    background: #fcfaf1 url('./Images/20zico.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot320 {
+    background: #fcfaf1 url('./Images/21dok2.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot321 {
+    background: #fcfaf1 url('./Images/22nafla.PNG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot322 {
+    background: #fcfaf1 url('./Images/23owen.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot323 {
+    background: #fcfaf1 url('./Images/24sikk.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot324 {
+    background: #fcfaf1 url('./Images/25changmo.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot325 {
+    background: #fcfaf1 url('./Images/26justhis.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot326 {
+    background: #fcfaf1 url('./Images/27dean.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot327 {
+    background: #fcfaf1 url('./Images/28beenzino.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot328 {
+    background: #fcfaf1 url('./Images/29jaypark.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+div#plot329 {
+    background: #fcfaf1 url('./Images/30bewhy.JPG') no-repeat center ;
+    background-size:6.5vw 6.5vw;
+    border: none !important;
+}
+
+
+div#plot30:hover {
+
+}
+
+div#plot-3s {
+    margin: 0 auto;
+    text-align: center;
 }

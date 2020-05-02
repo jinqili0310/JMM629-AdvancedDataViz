@@ -1,0 +1,141 @@
+word,count,group,category
+wanna,161,1,abbreviation
+gon / gonna,64,1,abbreviation
+gotta,44,1,abbreviation
+im / imma,29,1,abbreviation
+cus / cuz,16,1,abbreviation
+drink / drinkin' / drunk / drunken,72,2,alcohol
+martini blue,14,2,alcohol
+merlot,14,2,alcohol
+liquor / liquor's,12,2,alcohol
+sober,8,2,alcohol
+soju,7,2,alcohol
+whiskey,2,2,alcohol
+2 chainz,49,3,artist
+nafla,15,3,artist
+simon dominic,15,3,artist
+justhis,8,3,artist
+kid milli,8,3,artist
+ash island,6,3,artist
+young b,6,3,artist
+goosebumps,4,3,artist
+gray,4,3,artist
+jessi,3,3,artist
+owen ovadoz,3,3,artist
+rihanna,3,3,artist
+coogie,2,3,artist
+groovy room,2,3,artist
+jvcki wai,2,3,artist
+loco,2,3,artist
+loopy,2,3,artist
+mino,2,3,artist
+the quiett,2,3,artist
+gucci,138,4,brand
+rollie(s),68,4,brand
+nike(s),25,4,brand
+fila,16,4,brand
+prada,10,4,brand
+burberry,9,4,brand
+porsche,5,4,brand
+supreme,5,4,brand
+bentley,4,4,brand
+ksubi,3,4,brand
+raf simons,3,4,brand
+sriracha,3,4,brand
+i8,2,4,brand
+mercedes,2,4,brand
+patek,2,4,brand
+off white,2,4,brand
+zipper,2,4,brand
+dpr,44,5,crewlabel
+indigo,32,5,crewlabel
+bition,22,5,crewlabel
+illionaire / illy,21,5,crewlabel
+ambition / ambitious,18,5,crewlabel
+h1ghr,14,5,crewlabel
+fanxy child,8,5,crewlabel
+iab,8,5,crewlabel
+cozyboys,5,5,crewlabel
+1llionaire / 1lly,4,5,crewlabel
+mkit rain,4,5,crewlabel
+dickids,3,5,crewlabel
+aomg,3,5,crewlabel
+damoim,2,5,crewlabel
+jmim,2,5,crewlabel
+koz,2,5,crewlabel
+movie,35,6,culture
+rap / rapper(s) / rapstar,34,6,culture
+k-town,28,6,culture
+rock / rockstar / rockin',28,6,culture
+hyperreal,23,6,culture
+valhalla,17,6,culture
+god,14,6,culture
+facebook,12,6,culture
+instagram,7,6,culture
+picasso,6,6,culture
+jon snow,18,6,culture
+pinochio,6,6,culture
+van gogh,4,6,culture
+dali,3,6,culture
+xanny,3,6,culture
+nasa,2,6,culture
+nba,2,6,culture
+villain,2,6,culture
+dejavu,13,7,imported
+izakaya,4,7,imported
+adios,4,7,imported
+amor,2,7,imported
+hola,2,7,imported
+yea / yeah / yeh,1151,8,interjection
+ya / yah,256,8,interjection
+ay / ayy / aye / ayye,248,8,interjection
+oh,239,8,interjection
+eh / ey,227,8,interjection
+da,210,8,interjection
+em / emm,153,8,interjection
+la,152,8,interjection
+ooh / oooh / oops,147,8,interjection
+uh,118,8,interjection
+woo,90,8,interjection
+whoa / whoo,80,8,interjection
+huh,78,8,interjection
+na / nah,63,8,interjection
+yo,63,8,interjection
+ah / aah,56,8,interjection
+yuh / yup,53,8,interjection
+ha / hah,37,8,interjection
+hay / hey / heh,36,8,interjection
+mmm / mmmm,17,8,interjection
+um / umm,17,8,interjection
+brr / brrr / brrrr,14,8,interjection
+woah / wow,13,8,interjection
+seoul,14,9,place
+california,4,9,place
+malibu,4,9,place
+compton,3,9,place
+seattle,2,9,place
+beverly hills,60,9,place
+gang(s),153,10,slang
+bitch(es),85,10,slang
+shit,59,10,slang
+giddy,50,10,slang
+bust,46,10,slang
+shawty,37,10,slang
+motherfuckin' / motherfucka(s) / motherfucker(s) / muthafucka,36,10,slang
+okey dokey,35,10,slang
+boogie,30,10,slang
+bang / banger,18,10,slang
+skr / skrt,16,10,slang
+hunnit,13,10,slang
+y'all / yall,12,10,slang
+dope,11,10,slang
+homie(s),8,10,slang
+thang,8,10,slang
+damn,7,10,slang
+hustle,7,10,slang
+doggo,6,10,slang
+dick,5,10,slang
+doggy,5,10,slang
+churpin',4,10,slang
+flex / flexin',3,10,slang
+fuck / fuckin' / fucking,3,10,slang
