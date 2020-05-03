@@ -59,11 +59,23 @@ let svg = d3.select("#plot30")
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -116,16 +128,28 @@ let svg = d3.select("#plot31")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -178,16 +202,28 @@ let svg = d3.select("#plot32")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -240,16 +276,28 @@ let svg = d3.select("#plot33")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -302,16 +350,28 @@ let svg = d3.select("#plot34")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -364,16 +424,28 @@ let svg = d3.select("#plot35")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -426,16 +498,28 @@ let svg = d3.select("#plot36")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -488,16 +572,28 @@ let svg = d3.select("#plot37")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -551,16 +647,28 @@ let svg = d3.select("#plot38")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -614,16 +722,28 @@ let svg = d3.select("#plot39")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -676,16 +796,28 @@ let svg = d3.select("#plot310")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -738,16 +870,28 @@ let svg = d3.select("#plot311")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -800,16 +944,28 @@ let svg = d3.select("#plot312")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -862,16 +1018,28 @@ let svg = d3.select("#plot313")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -925,16 +1093,28 @@ let svg = d3.select("#plot314")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -987,16 +1167,28 @@ let svg = d3.select("#plot315")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1049,16 +1241,28 @@ let svg = d3.select("#plot316")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1111,16 +1315,28 @@ let svg = d3.select("#plot317")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1173,16 +1389,28 @@ let svg = d3.select("#plot318")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1235,16 +1463,28 @@ let svg = d3.select("#plot319")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1297,16 +1537,28 @@ let svg = d3.select("#plot320")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1359,16 +1611,28 @@ let svg = d3.select("#plot321")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1421,16 +1685,28 @@ let svg = d3.select("#plot322")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1483,16 +1759,28 @@ let svg = d3.select("#plot323")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1545,16 +1833,28 @@ let svg = d3.select("#plot324")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1607,16 +1907,28 @@ let svg = d3.select("#plot325")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1669,16 +1981,28 @@ let svg = d3.select("#plot326")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1731,16 +2055,28 @@ let svg = d3.select("#plot327")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1793,16 +2129,28 @@ let svg = d3.select("#plot328")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
@@ -1855,16 +2203,28 @@ let svg = d3.select("#plot329")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
-  svg
+    svg
     .selectAll('allLabels')
     .data(data_ready)
     .enter()
     .append('text')
-      .text( function(d) { console.log(d.data.word) ; return d.data.word + " " + d.data.count } )
+      .text( function(d) { console.log(d.data.word) ; return d.data.word } )
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
-    .attr("dy", ".4em")
+    .attr("dy", "0em")
+    .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( function(d) { console.log(d.data.count) ; return d.data.count } )
+      .attr("transform", function (d) {
+        return "translate(" + arc.centroid(d) + ")";
+    })
+    .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
 });
