@@ -78,6 +78,16 @@ let svg = d3.select("#plot30")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Jessi' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // JVCKI WAI
@@ -151,6 +161,16 @@ let svg = d3.select("#plot31")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Jvcki Wai' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -226,6 +246,16 @@ let svg = d3.select("#plot32")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'LOCO' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // SIMON DOMINIC
@@ -299,6 +329,16 @@ let svg = d3.select("#plot33")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Simon Dominic' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -374,6 +414,16 @@ let svg = d3.select("#plot34")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'GRAY' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // PUNCHNELLO
@@ -447,6 +497,16 @@ let svg = d3.select("#plot35")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Punchnello' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -522,6 +582,16 @@ let svg = d3.select("#plot36")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Woo Won-jae' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // LOOPY
@@ -595,6 +665,16 @@ let svg = d3.select("#plot37")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Loopy' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -671,6 +751,16 @@ let svg = d3.select("#plot38")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'MINO' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 
@@ -746,6 +836,16 @@ let svg = d3.select("#plot39")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'YOUNG B' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // PH-1
@@ -819,6 +919,16 @@ let svg = d3.select("#plot310")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'pH-1' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -894,6 +1004,16 @@ let svg = d3.select("#plot311")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Ash Island' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // COOGIE
@@ -968,6 +1088,16 @@ let svg = d3.select("#plot312")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Coogie' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // HAON
@@ -1041,6 +1171,16 @@ let svg = d3.select("#plot313")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'HAON' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -1117,6 +1257,16 @@ let svg = d3.select("#plot314")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Kid Milli' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // GIRIBOY
@@ -1190,6 +1340,16 @@ let svg = d3.select("#plot315")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Giriboy' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -1265,6 +1425,16 @@ let svg = d3.select("#plot316")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Swings' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // THE QUIETT
@@ -1338,6 +1508,16 @@ let svg = d3.select("#plot317")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'The Quiett' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -1413,6 +1593,16 @@ let svg = d3.select("#plot318")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'DPR LIVE' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // ZICO
@@ -1486,6 +1676,16 @@ let svg = d3.select("#plot319")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Zico' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -1561,6 +1761,16 @@ let svg = d3.select("#plot320")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Dok2' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // NAFLA
@@ -1634,6 +1844,16 @@ let svg = d3.select("#plot321")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Nafla' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -1709,6 +1929,16 @@ let svg = d3.select("#plot322")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Owen Ovadoz' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // SIK-K
@@ -1782,6 +2012,16 @@ let svg = d3.select("#plot323")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( '♥ Sik-K ♥' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -1857,6 +2097,16 @@ let svg = d3.select("#plot324")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Changmo' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // JUSTHIS
@@ -1930,6 +2180,16 @@ let svg = d3.select("#plot325")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'JUSTHIS' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -2005,6 +2265,16 @@ let svg = d3.select("#plot326")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'DEAN' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // BEENZINO
@@ -2078,6 +2348,16 @@ let svg = d3.select("#plot327")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Beenzino' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
 
@@ -2153,6 +2433,16 @@ let svg = d3.select("#plot328")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'Jay Park' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
+
 });
 
 // BEWHY
@@ -2226,5 +2516,15 @@ let svg = d3.select("#plot329")
     })
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
+
+    svg
+    .selectAll('allLabels')
+    .data(data_ready)
+    .enter()
+    .append('text')
+      .text( 'BeWhy' )
+      .attr("transform", "translate(" + 0 + "," + 0  + ")")
+    .attr("dy", height/2.1)
+    .attr("text-anchor", "middle");
 
 });
