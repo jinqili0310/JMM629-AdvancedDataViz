@@ -1,4 +1,27 @@
 word,count,group,category
+yea / yeah / yeh,1151,8,interjection
+ya / yah,256,8,interjection
+ay / ayy / aye / ayye,248,8,interjection
+oh,239,8,interjection
+eh / ey,227,8,interjection
+da,210,8,interjection
+em / emm,153,8,interjection
+la,152,8,interjection
+ooh / oooh / oops,147,8,interjection
+uh,118,8,interjection
+woo,90,8,interjection
+whoa / whoo,80,8,interjection
+huh,78,8,interjection
+na / nah,63,8,interjection
+yo,63,8,interjection
+ah / aah,56,8,interjection
+yuh / yup,53,8,interjection
+ha / hah,37,8,interjection
+hay / hey / heh,36,8,interjection
+mmm / mmmm,17,8,interjection
+um / umm,17,8,interjection
+brr / brrr / brrrr,14,8,interjection
+woah / wow,13,8,interjection
 wanna,161,1,abbreviation
 gon / gonna,64,1,abbreviation
 gotta,44,1,abbreviation
@@ -81,34 +104,11 @@ xanny,3,6,culture
 nasa,2,6,culture
 nba,2,6,culture
 villain,2,6,culture
-dejavu,13,7,imported
-izakaya,4,7,imported
-adios,4,7,imported
-amor,2,7,imported
-hola,2,7,imported
-yea / yeah / yeh,1151,8,interjection
-ya / yah,256,8,interjection
-ay / ayy / aye / ayye,248,8,interjection
-oh,239,8,interjection
-eh / ey,227,8,interjection
-da,210,8,interjection
-em / emm,153,8,interjection
-la,152,8,interjection
-ooh / oooh / oops,147,8,interjection
-uh,118,8,interjection
-woo,90,8,interjection
-whoa / whoo,80,8,interjection
-huh,78,8,interjection
-na / nah,63,8,interjection
-yo,63,8,interjection
-ah / aah,56,8,interjection
-yuh / yup,53,8,interjection
-ha / hah,37,8,interjection
-hay / hey / heh,36,8,interjection
-mmm / mmmm,17,8,interjection
-um / umm,17,8,interjection
-brr / brrr / brrrr,14,8,interjection
-woah / wow,13,8,interjection
+dejavu,13,7,loanword
+izakaya,4,7,loanword
+adios,4,7,loanword
+amor,2,7,loanword
+hola,2,7,loanword
 seoul,14,9,place
 california,4,9,place
 malibu,4,9,place

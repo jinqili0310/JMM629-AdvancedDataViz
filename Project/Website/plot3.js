@@ -30,7 +30,7 @@ let svg = d3.select("#plot30")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -44,13 +44,15 @@ let svg = d3.select("#plot30")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=uy4-gePx5xU")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -63,6 +65,7 @@ let svg = d3.select("#plot30")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -75,6 +78,7 @@ let svg = d3.select("#plot30")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -114,7 +118,7 @@ let svg = d3.select("#plot31")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -128,13 +132,15 @@ let svg = d3.select("#plot31")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=ir7G_H0LFJw")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -147,6 +153,7 @@ let svg = d3.select("#plot31")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -159,6 +166,7 @@ let svg = d3.select("#plot31")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -198,7 +206,7 @@ let svg = d3.select("#plot32")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -212,13 +220,15 @@ let svg = d3.select("#plot32")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=SqPVMqamjSk")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -231,6 +241,7 @@ let svg = d3.select("#plot32")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -243,6 +254,7 @@ let svg = d3.select("#plot32")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -282,7 +294,7 @@ let svg = d3.select("#plot33")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -296,13 +308,15 @@ let svg = d3.select("#plot33")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=9YXYTBLlXzc")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -315,6 +329,7 @@ let svg = d3.select("#plot33")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -327,6 +342,7 @@ let svg = d3.select("#plot33")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -366,7 +382,7 @@ let svg = d3.select("#plot34")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -380,13 +396,15 @@ let svg = d3.select("#plot34")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=oFvHoyLpCoQ")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -399,6 +417,7 @@ let svg = d3.select("#plot34")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -411,6 +430,7 @@ let svg = d3.select("#plot34")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -450,7 +470,7 @@ let svg = d3.select("#plot35")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -464,13 +484,15 @@ let svg = d3.select("#plot35")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=Cs9VB2CzDiE")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -483,6 +505,7 @@ let svg = d3.select("#plot35")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -495,6 +518,7 @@ let svg = d3.select("#plot35")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -534,7 +558,7 @@ let svg = d3.select("#plot36")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -548,13 +572,15 @@ let svg = d3.select("#plot36")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=n-H2R-hKyiQ")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -567,6 +593,7 @@ let svg = d3.select("#plot36")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -579,6 +606,7 @@ let svg = d3.select("#plot36")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -618,7 +646,7 @@ let svg = d3.select("#plot37")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -632,13 +660,15 @@ let svg = d3.select("#plot37")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=Lg7AT7Cs4Ns")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -651,6 +681,7 @@ let svg = d3.select("#plot37")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -663,6 +694,7 @@ let svg = d3.select("#plot37")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -703,7 +735,7 @@ let svg = d3.select("#plot38")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -717,13 +749,15 @@ let svg = d3.select("#plot38")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=IlJHZJ8EqeA")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -736,6 +770,7 @@ let svg = d3.select("#plot38")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -748,6 +783,7 @@ let svg = d3.select("#plot38")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -788,7 +824,7 @@ let svg = d3.select("#plot39")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -802,13 +838,15 @@ let svg = d3.select("#plot39")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=G8RlzZ7uCYI")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -821,6 +859,7 @@ let svg = d3.select("#plot39")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -833,6 +872,7 @@ let svg = d3.select("#plot39")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -872,7 +912,7 @@ let svg = d3.select("#plot310")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -886,13 +926,15 @@ let svg = d3.select("#plot310")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=oLXOr8WlFhY")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -905,6 +947,7 @@ let svg = d3.select("#plot310")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -917,6 +960,7 @@ let svg = d3.select("#plot310")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -956,7 +1000,7 @@ let svg = d3.select("#plot311")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -970,13 +1014,15 @@ let svg = d3.select("#plot311")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=rMQ20mMOOuM")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -989,6 +1035,7 @@ let svg = d3.select("#plot311")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1001,6 +1048,7 @@ let svg = d3.select("#plot311")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1040,7 +1088,7 @@ let svg = d3.select("#plot312")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1054,13 +1102,15 @@ let svg = d3.select("#plot312")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=QUpWfIT_sNU")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1073,6 +1123,7 @@ let svg = d3.select("#plot312")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1085,6 +1136,7 @@ let svg = d3.select("#plot312")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1124,7 +1176,7 @@ let svg = d3.select("#plot313")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1138,13 +1190,15 @@ let svg = d3.select("#plot313")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=HWl8XAOQnTg")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1157,6 +1211,7 @@ let svg = d3.select("#plot313")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1169,6 +1224,7 @@ let svg = d3.select("#plot313")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1209,7 +1265,7 @@ let svg = d3.select("#plot314")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1223,13 +1279,15 @@ let svg = d3.select("#plot314")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=xGxiqglTrN8")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1242,6 +1300,7 @@ let svg = d3.select("#plot314")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1254,6 +1313,7 @@ let svg = d3.select("#plot314")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1293,7 +1353,7 @@ let svg = d3.select("#plot315")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1307,13 +1367,15 @@ let svg = d3.select("#plot315")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=96es5i6FzDc")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1326,6 +1388,7 @@ let svg = d3.select("#plot315")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1338,6 +1401,7 @@ let svg = d3.select("#plot315")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1377,7 +1441,7 @@ let svg = d3.select("#plot316")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1391,13 +1455,15 @@ let svg = d3.select("#plot316")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=OkzsLi18FOI")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1410,6 +1476,7 @@ let svg = d3.select("#plot316")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1422,6 +1489,7 @@ let svg = d3.select("#plot316")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1461,7 +1529,7 @@ let svg = d3.select("#plot317")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1475,13 +1543,15 @@ let svg = d3.select("#plot317")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=1gXWp5yT81U")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1494,6 +1564,7 @@ let svg = d3.select("#plot317")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1506,6 +1577,7 @@ let svg = d3.select("#plot317")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1545,7 +1617,7 @@ let svg = d3.select("#plot318")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1559,13 +1631,15 @@ let svg = d3.select("#plot318")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=xfJPCenjZzY")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1578,6 +1652,7 @@ let svg = d3.select("#plot318")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1590,6 +1665,7 @@ let svg = d3.select("#plot318")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1629,7 +1705,7 @@ let svg = d3.select("#plot319")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1643,13 +1719,15 @@ let svg = d3.select("#plot319")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=UuV2BmJ1p_I")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1662,6 +1740,7 @@ let svg = d3.select("#plot319")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1674,6 +1753,7 @@ let svg = d3.select("#plot319")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1713,7 +1793,7 @@ let svg = d3.select("#plot320")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1727,13 +1807,15 @@ let svg = d3.select("#plot320")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=T-rNaRGGVLg")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1746,6 +1828,7 @@ let svg = d3.select("#plot320")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1758,6 +1841,7 @@ let svg = d3.select("#plot320")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1797,7 +1881,7 @@ let svg = d3.select("#plot321")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1811,13 +1895,15 @@ let svg = d3.select("#plot321")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=GqhQS7bsV1Y")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1830,6 +1916,7 @@ let svg = d3.select("#plot321")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1842,6 +1929,7 @@ let svg = d3.select("#plot321")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1881,7 +1969,7 @@ let svg = d3.select("#plot322")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1895,13 +1983,15 @@ let svg = d3.select("#plot322")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=cWINhE5EEkY")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1914,6 +2004,7 @@ let svg = d3.select("#plot322")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -1926,6 +2017,7 @@ let svg = d3.select("#plot322")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -1965,7 +2057,7 @@ let svg = d3.select("#plot323")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -1979,13 +2071,15 @@ let svg = d3.select("#plot323")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=1_BTuzaRHYU")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -1998,6 +2092,7 @@ let svg = d3.select("#plot323")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -2010,6 +2105,7 @@ let svg = d3.select("#plot323")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -2049,7 +2145,7 @@ let svg = d3.select("#plot324")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -2063,13 +2159,15 @@ let svg = d3.select("#plot324")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=ngTZLvKauRE")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -2082,6 +2180,7 @@ let svg = d3.select("#plot324")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -2094,6 +2193,7 @@ let svg = d3.select("#plot324")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -2133,7 +2233,7 @@ let svg = d3.select("#plot325")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -2147,13 +2247,15 @@ let svg = d3.select("#plot325")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=2B7GHO7sws4")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -2166,6 +2268,7 @@ let svg = d3.select("#plot325")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -2178,6 +2281,7 @@ let svg = d3.select("#plot325")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -2217,7 +2321,7 @@ let svg = d3.select("#plot326")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -2231,13 +2335,15 @@ let svg = d3.select("#plot326")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=wKyMIrBClYw")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -2250,6 +2356,7 @@ let svg = d3.select("#plot326")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -2262,6 +2369,7 @@ let svg = d3.select("#plot326")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -2301,7 +2409,7 @@ let svg = d3.select("#plot327")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -2315,13 +2423,15 @@ let svg = d3.select("#plot327")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=5rvCbPJkmqs")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -2334,6 +2444,7 @@ let svg = d3.select("#plot327")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -2346,6 +2457,7 @@ let svg = d3.select("#plot327")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -2385,7 +2497,7 @@ let svg = d3.select("#plot328")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -2399,13 +2511,15 @@ let svg = d3.select("#plot328")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=8sZMrwM2Cec")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -2418,6 +2532,7 @@ let svg = d3.select("#plot328")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -2430,6 +2545,7 @@ let svg = d3.select("#plot328")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 
@@ -2469,7 +2585,7 @@ let svg = d3.select("#plot329")
 
   let color = d3.scaleOrdinal()
     .domain(data_ready)
-    .range(["#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
+    .range(["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]);
   
   // The arc generator
   let arc = d3.arc()
@@ -2483,13 +2599,15 @@ let svg = d3.select("#plot329")
   
   // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
   svg
+  .append("a")
+    .attr("xlink:href", "https://www.youtube.com/watch?v=ckZor7HRU1E")
     .selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
     .attr('fill', function(d){ return color(d.data.num) })
-    .attr("stroke", "#fcfaf1")
+    .attr("stroke", "#343434")
     .style("stroke-width", "2px")
     .style("opacity", 1)
 
@@ -2502,6 +2620,7 @@ let svg = d3.select("#plot329")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "0em")
     .attr("text-anchor", "middle")
 
@@ -2514,6 +2633,7 @@ let svg = d3.select("#plot329")
       .attr("transform", function (d) {
         return "translate(" + arc.centroid(d) + ")";
     })
+    .attr("fill", "#fcfaf1")
     .attr("dy", "1em")
     .attr("text-anchor", "middle")
 

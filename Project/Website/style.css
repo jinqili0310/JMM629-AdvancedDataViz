@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
 body {
-    background-color: #ffffff;
+    background-color: #fcfaf1;
     color: #343434;
     font-family: 'Inconsolata', monospace;
 }
@@ -18,15 +18,28 @@ h1.title-large {
     color: #343434;
 }
 
+div.ending {
+    margin: 10% 5% 5% 5%;
+}
+
+p.text-under {
+    text-align: center; 
+    font-size: 1.2em;
+    margin: 0.5em;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+}
+
 p.text-detail {
     padding-top: 24px;
+    margin: 0;
     font-size: 24px;
     line-height: 2;
     color: #343434;
 }
 
 div.plot {
-    margin: 5% 5% 0 5%;
+    margin: 5% 10% 0 10%;
     background-color: #fcfaf1;
 }
 
@@ -41,11 +54,11 @@ div.tooltip {
     position: absolute;			
     text-align: center;			
     width: auto;
-    max-width: 140px;					
+    max-width: 250px;					
     height: auto;
     background-color: #343434;					
     padding: 2px 6px;				
-    font: 16px 'Inconsolata';		
+    font: 20px 'Inconsolata';		
     border: none;
     border-color: #343434;				
     pointer-events: none;
@@ -53,7 +66,10 @@ div.tooltip {
 }
 
 div.ment {
-    margin: 0 5% 5% 5%;
+    margin: 0 18% 5% 18%;
+    font-size: 24px;
+    line-height: 2;
+    color: #343434;
 }
 
 tr{
@@ -72,12 +88,20 @@ table{
 }
 
 div.row {
-    padding: 0 0 0 12vw;
+    padding: 0 0 0 0;
+    margin: 0 0;
+    min-width: 9vw;
+    display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
 }
 
 div.column {
     float: left;
     text-align: center;
+    font-size: 20px;
 }
   
   /* Clear floats after the columns */
@@ -93,13 +117,33 @@ div.plot-row:after {
     clear: both;
 }
 
+
+div#plot-3s {
+    margin: 0 auto 5% auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
 div.plot3 {
     float: left;
     text-align: center;
-    width: 16vw;
-    height: 16vw;
-    padding: 0.9vw;
+    min-width: 16vw;
+    min-height: 16vw;
+    padding: 0vw;
 }
+
+
+/* .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+} */
 
 div#plot30 {
     background: #fcfaf1 url('./Images/1jessi.JPG') no-repeat center ;
@@ -255,9 +299,4 @@ div#plot329 {
 
 div#plot30:hover {
 
-}
-
-div#plot-3s {
-    margin: 0 auto;
-    text-align: center;
 }
